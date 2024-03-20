@@ -6,6 +6,8 @@ public class Microphone {
 
     public Microphone(String id, int frequencyResponse) {
         // your code goes here
+        this.id=id;
+        this.frequencyResponse=frequencyResponse;
     }
 
     public String getId() {
